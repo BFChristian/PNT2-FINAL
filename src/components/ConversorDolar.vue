@@ -45,7 +45,7 @@ export default {
                 this.cotizacionDisponible = true;
                 this.conversorPesosADolares();
             } catch (error) {
-                console.error("Error al obtener la cotización del dólar oficial:", error);
+               console.log(error);
             }
         },
         conversorPesosADolares() {
