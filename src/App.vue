@@ -1,16 +1,16 @@
 <template>
   <div>
-    <Example />
+    <ConversorDolar />
   </div>
 </template>
 
 <script>
-import Example from './components/example.vue'
+import ConversorDolar from './components/ConversorDolar.vue';
 
 export default {
   name: 'app',
   components: {
-    Example
+    ConversorDolar
   }
 }
 </script>
